@@ -5,4 +5,4 @@ Very simple circuit and example project to demonstrate GPIO fundamentals on a ST
 Very basic project to get back to terms with I/O.  The switches drive 5V to pins D2 and D4, which are recorded by a digitalRead(...) each frame in the loop.  When pressed, we use a previous value lock to make sure we aren't processing events more than one time, then on HIGH read, increment or reset the counter respectively, and then change the LED ouputs.  LEDs are driven by pins D8-10, with a 220ohm resistor to make sure we don't fry an LED unintentiionally.  Overall a very basic design, but its good to start with the fundamentals.
 
 Circuit diagram is included below:
-![Circuit Diagram](Wokwi Projects\LED Binary Counter\assets\LEDCounterDiagram.png)
+![Circuit Diagram](WokwiProjects\LEDBinaryCounter\assets\LEDCounterDiagram.png)
